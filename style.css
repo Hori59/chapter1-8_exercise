@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*リスト部分*/
+.list-index {
+	width: 960px;
+	margin: 50px auto;
+}
+.list-item {
+	padding: 20px;
+	list-style: none;
+}
+.list-item:nth-child(odd) {
+	background-color: lightgray
+}
+
+/*ボックス部分*/
+.box-contents {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 30%;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+}
+
+.o-box {
+	background-color: orange;
+}
+
+.center-box {
+	margin: 0 5%;
+}
+
+.box:nth-child(-n+6) {
+	margin-bottom: 40px;
+}
+
+.box:nth-child(n+7) {
+	margin-bottom: 50px;
+}
